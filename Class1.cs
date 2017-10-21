@@ -43,7 +43,7 @@ namespace GAMELibrary
         }
         public override void SetRating(double value)
         {
-            Rating = value;
+            Rating+= value;
         }
 
         public override double GetRating()
@@ -65,7 +65,7 @@ namespace GAMELibrary
 
         public override void SetRating(double value)
         {
-            Rating = value;
+            Rating+= value;
         }
         public override double GetRating()
         {
@@ -86,7 +86,7 @@ namespace GAMELibrary
 
         public override void SetRating(double value)
         {
-            Rating = value;
+            Rating+= value;
         }
 
         public override double GetRating()
